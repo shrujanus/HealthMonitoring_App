@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014220489224",
+    "project_id": "auth-bb36a",
+    "storage_bucket": "auth-bb36a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014220489224:android:c91abad7161b6f812447bd",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014220489224-ato00i9m87jm35657mt16hhepk78lmn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYU9PvRjWkuHzuWrOLA7msWCINxcPL_9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014220489224-ato00i9m87jm35657mt16hhepk78lmn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

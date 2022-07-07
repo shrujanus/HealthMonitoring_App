@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+      <!--  <item
+            android:id="@+id/nav_water"
+            android:icon="@drawable/water_icon"
+            android:title="water Alarm" />
+-->
+        <item
+            android:id="@+id/nav_Steps"
+            android:icon="@drawable/walk_icon"
+            android:title="Foot Step Monitoring" />
+
+<!--        <item
+            android:id="@+id/nav_sleepSuggestion"
+            android:icon="@drawable/sleep_icon"
+            android:title="Sleep Suggestion" />-->
+
+        <item
+            android:id="@+id/nav_dietMonitoring"
+            android:icon="@drawable/diet_icon"
+            android:title="Diet Monitoring" />
+
+        <item
+            android:id="@+id/nav_dietSuggestion"
+            android:icon="@drawable/diet_icon"
+            android:title="Diet Suggestion" />
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Log out" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileInfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10sp"
+        tools:layout_editor_absoluteX="31dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/fullname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10sp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age      :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/age2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10sp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight in kgs :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Weight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10sp"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heights in cms:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Height2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/UpdateProfile"
+        android:padding="10sp"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#0ED6B9"
+        android:text="UPDATE PROFILE"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

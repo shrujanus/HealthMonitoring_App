@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/progress_circular2"
+            android:layout_width="459dp"
+            android:layout_height="402dp"
+            android:layout_alignParentEnd="true"
+            app:cpb_background_progressbar_color="#F2F2F2"
+            app:cpb_background_progressbar_width="40dp"
+            app:cpb_progressbar_color_end="#1E40E9"
+            app:cpb_progressbar_width="20dp"
+            app:cpb_progress_max="5000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_caloriesConsumed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consumed: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/progress_circular2"
+            app:layout_constraintEnd_toEndOf="@+id/progress_circular2"
+            app:layout_constraintStart_toStartOf="@+id/progress_circular2"
+            app:layout_constraintTop_toTopOf="@+id/progress_circular2"
+            app:layout_constraintVertical_bias="0.503" />
+
+        <TextView
+            android:id="@+id/NeededCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Needed: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/progress_circular2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/progress_circular2"
+            app:layout_constraintVertical_bias="0.701" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
